@@ -1,11 +1,7 @@
-#include "CLI11.hpp"
 #include "primeChecker.h"
+#include "isPrime.cpp"
+#include "CLI11.hpp"
 
-bool isPrime(const int numberToCheck)
-{
-    //TODO: Build functionality
-    return true;
-}
 
 int main(int argc, char **argv) {
 
@@ -23,7 +19,10 @@ int main(int argc, char **argv) {
     CLI11_PARSE(app, argc, argv);
     //CLI utility implementation ended
 
-    isPrime(numberToCheck);
+    if(isPrime(numberToCheck))
+        std::cout << numberToCheck << " is prime! \n";
+    else
+        std::cout << numberToCheck << " is not prime! \n";
 
 
     return 0;

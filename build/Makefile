@@ -222,6 +222,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named primeCheckerTests
+
+# Build rule for target.
+primeCheckerTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 primeCheckerTests
+.PHONY : primeCheckerTests
+
+# fast build rule for target.
+primeCheckerTests/fast:
+	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/build
+.PHONY : primeCheckerTests/fast
+
+#=============================================================================
 # Target rules for targets named primeChecker
 
 # Build rule for target.
@@ -251,6 +264,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... primeCheckerTests"
 	@echo "... primeChecker"
 .PHONY : help
 

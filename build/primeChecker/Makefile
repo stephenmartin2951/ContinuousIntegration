@@ -157,6 +157,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+primeChecker/CMakeFiles/primeCheckerTests.dir/rule:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/primeCheckerTests.dir/rule
+.PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/rule
+
+# Convenience name for target.
+primeCheckerTests: primeChecker/CMakeFiles/primeCheckerTests.dir/rule
+
+.PHONY : primeCheckerTests
+
+# fast build rule for target.
+primeCheckerTests/fast:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/build
+.PHONY : primeCheckerTests/fast
+
+# Convenience name for target.
 primeChecker/CMakeFiles/primeChecker.dir/rule:
 	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/primeChecker.dir/rule
 .PHONY : primeChecker/CMakeFiles/primeChecker.dir/rule
@@ -198,6 +213,33 @@ primeChecker.cpp.s:
 	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/primeChecker.cpp.s
 .PHONY : primeChecker.cpp.s
 
+primeCheckerTests.o: primeCheckerTests.cc.o
+
+.PHONY : primeCheckerTests.o
+
+# target to build an object file
+primeCheckerTests.cc.o:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/primeCheckerTests.cc.o
+.PHONY : primeCheckerTests.cc.o
+
+primeCheckerTests.i: primeCheckerTests.cc.i
+
+.PHONY : primeCheckerTests.i
+
+# target to preprocess a source file
+primeCheckerTests.cc.i:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/primeCheckerTests.cc.i
+.PHONY : primeCheckerTests.cc.i
+
+primeCheckerTests.s: primeCheckerTests.cc.s
+
+.PHONY : primeCheckerTests.s
+
+# target to generate assembly for a file
+primeCheckerTests.cc.s:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/primeCheckerTests.cc.s
+.PHONY : primeCheckerTests.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,10 +252,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... primeCheckerTests"
 	@echo "... primeChecker"
 	@echo "... primeChecker.o"
 	@echo "... primeChecker.i"
 	@echo "... primeChecker.s"
+	@echo "... primeCheckerTests.o"
+	@echo "... primeCheckerTests.i"
+	@echo "... primeCheckerTests.s"
 .PHONY : help
 
 

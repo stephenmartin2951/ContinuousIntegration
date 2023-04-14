@@ -14,10 +14,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.16/Modules/ExternalProject-download.cmake.in"
   "/usr/share/cmake-3.16/Modules/ExternalProject.cmake"
-  "/usr/share/cmake-3.16/Modules/FindGit.cmake"
-  "/usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
-  "/usr/share/cmake-3.16/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.16/Modules/RepositoryInfo.txt.in"
@@ -31,7 +29,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-gitinfo.txt"
+  "googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-urlinfo.txt"
+  "googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake"
   "googletest-populate-prefix/tmp/googletest-populate-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

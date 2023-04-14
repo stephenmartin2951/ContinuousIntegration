@@ -3,6 +3,7 @@
 
 primeChecker/CMakeFiles/primeChecker.dir/primeChecker.cpp.o
  ../utils/CLI11.hpp
+ /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp
  /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.cpp
  /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.h
  /usr/include/asm-generic/bitsperlong.h

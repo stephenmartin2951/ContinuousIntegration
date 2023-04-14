@@ -136,6 +136,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 # Directory level rules for directory primeChecker
 
 # Recursive "all" directory target.
+primeChecker/all: primeChecker/CMakeFiles/primeCheckerTests.dir/all
 primeChecker/all: primeChecker/CMakeFiles/primeChecker.dir/all
 
 .PHONY : primeChecker/all
@@ -146,6 +147,7 @@ primeChecker/preinstall:
 .PHONY : primeChecker/preinstall
 
 # Recursive "clean" directory target.
+primeChecker/clean: primeChecker/CMakeFiles/primeCheckerTests.dir/clean
 primeChecker/clean: primeChecker/CMakeFiles/primeChecker.dir/clean
 
 .PHONY : primeChecker/clean
@@ -285,6 +287,34 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target primeChecker/CMakeFiles/primeCheckerTests.dir
+
+# All Build rule for target.
+primeChecker/CMakeFiles/primeCheckerTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+primeChecker/CMakeFiles/primeCheckerTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/depend
+	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=11,12 "Built target primeCheckerTests"
+.PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/all
+
+# Build rule for subdir invocation for target.
+primeChecker/CMakeFiles/primeCheckerTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 6
+	$(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/primeCheckerTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 0
+.PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/rule
+
+# Convenience name for target.
+primeCheckerTests: primeChecker/CMakeFiles/primeCheckerTests.dir/rule
+
+.PHONY : primeCheckerTests
+
+# clean rule for target.
+primeChecker/CMakeFiles/primeCheckerTests.dir/clean:
+	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/clean
+.PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/clean
 
 #=============================================================================
 # Target rules for target primeChecker/CMakeFiles/primeChecker.dir

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/primeChecker.dir/primeChecker.cpp.o  -o primeChecker 
+/usr/bin/c++     CMakeFiles/primeChecker.dir/primeChecker.cpp.o  -o primeChecker  libisPrime.a 

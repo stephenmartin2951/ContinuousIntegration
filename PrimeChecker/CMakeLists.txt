@@ -2,6 +2,10 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
+add_library(
+  isPrime
+  isPrime.cpp
+)
 
 add_executable(
   primeChecker
@@ -16,6 +20,12 @@ add_executable(
 target_link_libraries(
   primeCheckerTests
   GTest::gtest_main
+  isPrime
+)
+
+target_link_libraries(
+  primeChecker
+  isPrime
 )
 
 

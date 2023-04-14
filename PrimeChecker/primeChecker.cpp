@@ -1,5 +1,4 @@
 #include "primeChecker.h"
-#include "isPrime.cpp"
 #include "CLI11.hpp"
 
 

@@ -79,6 +79,7 @@ primeChecker_EXTERNAL_OBJECTS =
 
 primeChecker/primeChecker: primeChecker/CMakeFiles/primeChecker.dir/primeChecker.cpp.o
 primeChecker/primeChecker: primeChecker/CMakeFiles/primeChecker.dir/build.make
+primeChecker/primeChecker: primeChecker/libisPrime.a
 primeChecker/primeChecker: primeChecker/CMakeFiles/primeChecker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable primeChecker"
 	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/primeChecker.dir/link.txt --verbose=$(VERBOSE)

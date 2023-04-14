@@ -25,6 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/CMakeFiles/isPrime.dir/DependInfo.cmake"
   "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 

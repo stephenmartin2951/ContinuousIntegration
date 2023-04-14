@@ -247,6 +247,19 @@ primeChecker/fast:
 	$(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/build
 .PHONY : primeChecker/fast
 
+#=============================================================================
+# Target rules for targets named isPrime
+
+# Build rule for target.
+isPrime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 isPrime
+.PHONY : isPrime
+
+# fast build rule for target.
+isPrime/fast:
+	$(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/build
+.PHONY : isPrime/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +279,7 @@ help:
 	@echo "... gtest"
 	@echo "... primeCheckerTests"
 	@echo "... primeChecker"
+	@echo "... isPrime"
 .PHONY : help
 
 

@@ -28,5 +28,10 @@
   "directory": "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker",
   "command": "/usr/bin/c++   -I\"/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/utils\" -isystem /usr/include/c++/9 -isystem /usr/include/x86_64-linux-gnu/c++/9 -isystem /usr/include/c++/9/backward -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -isystem /usr/local/include -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include    -std=gnu++14 -o CMakeFiles/primeChecker.dir/primeChecker.cpp.o -c \"/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.cpp\"",
   "file": "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.cpp"
+},
+{
+  "directory": "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker",
+  "command": "/usr/bin/c++   -I\"/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/utils\" -isystem /usr/include/c++/9 -isystem /usr/include/x86_64-linux-gnu/c++/9 -isystem /usr/include/c++/9/backward -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -isystem /usr/local/include -isystem /usr/include/x86_64-linux-gnu -isystem /usr/include    -std=gnu++14 -o CMakeFiles/isPrime.dir/isPrime.cpp.o -c \"/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp\"",
+  "file": "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp"
 }
 ]

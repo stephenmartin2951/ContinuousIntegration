@@ -186,6 +186,48 @@ primeChecker/fast:
 	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/build
 .PHONY : primeChecker/fast
 
+# Convenience name for target.
+primeChecker/CMakeFiles/isPrime.dir/rule:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/isPrime.dir/rule
+.PHONY : primeChecker/CMakeFiles/isPrime.dir/rule
+
+# Convenience name for target.
+isPrime: primeChecker/CMakeFiles/isPrime.dir/rule
+
+.PHONY : isPrime
+
+# fast build rule for target.
+isPrime/fast:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/build
+.PHONY : isPrime/fast
+
+isPrime.o: isPrime.cpp.o
+
+.PHONY : isPrime.o
+
+# target to build an object file
+isPrime.cpp.o:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/isPrime.cpp.o
+.PHONY : isPrime.cpp.o
+
+isPrime.i: isPrime.cpp.i
+
+.PHONY : isPrime.i
+
+# target to preprocess a source file
+isPrime.cpp.i:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/isPrime.cpp.i
+.PHONY : isPrime.cpp.i
+
+isPrime.s: isPrime.cpp.s
+
+.PHONY : isPrime.s
+
+# target to generate assembly for a file
+isPrime.cpp.s:
+	cd "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build" && $(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/isPrime.cpp.s
+.PHONY : isPrime.cpp.s
+
 primeChecker.o: primeChecker.cpp.o
 
 .PHONY : primeChecker.o
@@ -254,6 +296,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... primeCheckerTests"
 	@echo "... primeChecker"
+	@echo "... isPrime"
+	@echo "... isPrime.o"
+	@echo "... isPrime.i"
+	@echo "... isPrime.s"
 	@echo "... primeChecker.o"
 	@echo "... primeChecker.i"
 	@echo "... primeChecker.s"

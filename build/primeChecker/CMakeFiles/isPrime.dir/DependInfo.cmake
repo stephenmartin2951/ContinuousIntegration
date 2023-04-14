@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.cpp" "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/CMakeFiles/primeChecker.dir/primeChecker.cpp.o"
+  "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp" "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/CMakeFiles/isPrime.dir/isPrime.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/CMakeFiles/isPrime.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

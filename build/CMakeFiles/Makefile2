@@ -138,6 +138,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 # Recursive "all" directory target.
 primeChecker/all: primeChecker/CMakeFiles/primeCheckerTests.dir/all
 primeChecker/all: primeChecker/CMakeFiles/primeChecker.dir/all
+primeChecker/all: primeChecker/CMakeFiles/isPrime.dir/all
 
 .PHONY : primeChecker/all
 
@@ -149,6 +150,7 @@ primeChecker/preinstall:
 # Recursive "clean" directory target.
 primeChecker/clean: primeChecker/CMakeFiles/primeCheckerTests.dir/clean
 primeChecker/clean: primeChecker/CMakeFiles/primeChecker.dir/clean
+primeChecker/clean: primeChecker/CMakeFiles/isPrime.dir/clean
 
 .PHONY : primeChecker/clean
 
@@ -294,14 +296,15 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 # All Build rule for target.
 primeChecker/CMakeFiles/primeCheckerTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 primeChecker/CMakeFiles/primeCheckerTests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+primeChecker/CMakeFiles/primeCheckerTests.dir/all: primeChecker/CMakeFiles/isPrime.dir/all
 	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/depend
 	$(MAKE) -f primeChecker/CMakeFiles/primeCheckerTests.dir/build.make primeChecker/CMakeFiles/primeCheckerTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=11,12 "Built target primeCheckerTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=13,14 "Built target primeCheckerTests"
 .PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/all
 
 # Build rule for subdir invocation for target.
 primeChecker/CMakeFiles/primeCheckerTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 8
 	$(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/primeCheckerTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 0
 .PHONY : primeChecker/CMakeFiles/primeCheckerTests.dir/rule
@@ -320,15 +323,15 @@ primeChecker/CMakeFiles/primeCheckerTests.dir/clean:
 # Target rules for target primeChecker/CMakeFiles/primeChecker.dir
 
 # All Build rule for target.
-primeChecker/CMakeFiles/primeChecker.dir/all:
+primeChecker/CMakeFiles/primeChecker.dir/all: primeChecker/CMakeFiles/isPrime.dir/all
 	$(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/depend
 	$(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=9,10 "Built target primeChecker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=11,12 "Built target primeChecker"
 .PHONY : primeChecker/CMakeFiles/primeChecker.dir/all
 
 # Build rule for subdir invocation for target.
 primeChecker/CMakeFiles/primeChecker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/primeChecker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 0
 .PHONY : primeChecker/CMakeFiles/primeChecker.dir/rule
@@ -342,6 +345,33 @@ primeChecker: primeChecker/CMakeFiles/primeChecker.dir/rule
 primeChecker/CMakeFiles/primeChecker.dir/clean:
 	$(MAKE) -f primeChecker/CMakeFiles/primeChecker.dir/build.make primeChecker/CMakeFiles/primeChecker.dir/clean
 .PHONY : primeChecker/CMakeFiles/primeChecker.dir/clean
+
+#=============================================================================
+# Target rules for target primeChecker/CMakeFiles/isPrime.dir
+
+# All Build rule for target.
+primeChecker/CMakeFiles/isPrime.dir/all:
+	$(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/depend
+	$(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" --progress-num=9,10 "Built target isPrime"
+.PHONY : primeChecker/CMakeFiles/isPrime.dir/all
+
+# Build rule for subdir invocation for target.
+primeChecker/CMakeFiles/isPrime.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 primeChecker/CMakeFiles/isPrime.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/CMakeFiles" 0
+.PHONY : primeChecker/CMakeFiles/isPrime.dir/rule
+
+# Convenience name for target.
+isPrime: primeChecker/CMakeFiles/isPrime.dir/rule
+
+.PHONY : isPrime
+
+# clean rule for target.
+primeChecker/CMakeFiles/isPrime.dir/clean:
+	$(MAKE) -f primeChecker/CMakeFiles/isPrime.dir/build.make primeChecker/CMakeFiles/isPrime.dir/clean
+.PHONY : primeChecker/CMakeFiles/isPrime.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

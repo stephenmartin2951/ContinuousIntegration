@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp
-
 /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.h
 
 /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeCheckerTests.cc
 primeChecker.h
 /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/primeChecker.h
-isPrime.cpp
-/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/primeChecker/isPrime.cpp
 gtest/gtest.h
 -
 

@@ -83,4 +83,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "primeChecker/CMakeFiles/primeCheckerTests.dir/DependInfo.cmake"
   "primeChecker/CMakeFiles/primeChecker.dir/DependInfo.cmake"
+  "primeChecker/CMakeFiles/isPrime.dir/DependInfo.cmake"
   )

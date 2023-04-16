@@ -15,7 +15,7 @@
    
    2.) Make sure you have CMake installed (sudo apt install cmake)
    
-   3.) from the base directory type this command: cmake . -B /build
+   3.) from the base directory type this command: cmake . -B build
    
        - what this is saying is use the CMakeLists.txt file in the directory you are in as a guide to build the project, and put the build files in the build directory
        

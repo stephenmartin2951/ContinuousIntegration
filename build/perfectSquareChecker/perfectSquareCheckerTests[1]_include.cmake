@@ -1,0 +1,5 @@
+if(EXISTS "/Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
+  include("/Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
+else()
+  add_test(perfectSquareCheckerTests_NOT_BUILT perfectSquareCheckerTests_NOT_BUILT)
+endif()

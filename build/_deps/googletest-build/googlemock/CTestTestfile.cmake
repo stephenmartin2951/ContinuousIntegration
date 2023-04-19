@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/_deps/googletest-src/googlemock
-# Build directory: /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/_deps/googletest-build/googlemock
+# Source directory: /Users/bentweet/Desktop/Group3Project4/build/_deps/googletest-src/googlemock
+# Build directory: /Users/bentweet/Desktop/Group3Project4/build/_deps/googletest-build/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

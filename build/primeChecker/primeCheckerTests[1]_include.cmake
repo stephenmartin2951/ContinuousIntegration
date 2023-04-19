@@ -1,5 +1,5 @@
-if(EXISTS "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/primeCheckerTests[1]_tests.cmake")
-  include("/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/build/primeChecker/primeCheckerTests[1]_tests.cmake")
+if(EXISTS "/Users/bentweet/Desktop/Group3Project4/build/primeChecker/primeCheckerTests[1]_tests.cmake")
+  include("/Users/bentweet/Desktop/Group3Project4/build/primeChecker/primeCheckerTests[1]_tests.cmake")
 else()
   add_test(primeCheckerTests_NOT_BUILT primeCheckerTests_NOT_BUILT)
 endif()

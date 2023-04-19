@@ -32,3 +32,4 @@ add_custom_target(
 
 
 add_subdirectory(primeChecker)
+add_subdirectory(perfectSquareChecker)

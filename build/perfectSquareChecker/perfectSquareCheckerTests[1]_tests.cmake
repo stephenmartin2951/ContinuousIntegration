@@ -1,0 +1,5 @@
+add_test([=[PerfectSquareTest.PositiveNos]=]  /Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests [==[--gtest_filter=PerfectSquareTest.PositiveNos]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PerfectSquareTest.PositiveNos]=]  PROPERTIES WORKING_DIRECTORY /Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[PerfectSquareTest.NegativeNos]=]  /Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests [==[--gtest_filter=PerfectSquareTest.NegativeNos]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PerfectSquareTest.NegativeNos]=]  PROPERTIES WORKING_DIRECTORY /Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  perfectSquareCheckerTests_TESTS PerfectSquareTest.PositiveNos PerfectSquareTest.NegativeNos)

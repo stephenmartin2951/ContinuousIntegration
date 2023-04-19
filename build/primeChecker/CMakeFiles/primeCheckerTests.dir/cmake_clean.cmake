@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/primeCheckerTests.dir/primeCheckerTests.cc.o"
+  "CMakeFiles/primeCheckerTests.dir/primeCheckerTests.cc.o.d"
   "primeCheckerTests"
   "primeCheckerTests.pdb"
   "primeCheckerTests[1]_tests.cmake"

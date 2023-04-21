@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.o"
-  "CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.o.d"
   "libisPerfectSquare.a"
   "libisPerfectSquare.pdb"
 )

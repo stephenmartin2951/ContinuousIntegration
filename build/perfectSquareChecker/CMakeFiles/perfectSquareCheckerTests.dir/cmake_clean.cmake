@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/perfectSquareCheckerTests.dir/perfectSquareCheckerTests.cpp.o"
-  "CMakeFiles/perfectSquareCheckerTests.dir/perfectSquareCheckerTests.cpp.o.d"
   "perfectSquareCheckerTests"
   "perfectSquareCheckerTests.pdb"
   "perfectSquareCheckerTests[1]_tests.cmake"

@@ -24,11 +24,9 @@ target_link_libraries(
 )
 
 target_link_libraries(
-  armstrongCheckerChecker
+  armstrongChecker
   isArmstrong
 )
-
-
 
 include(GoogleTest)
 gtest_discover_tests(armstrongCheckerTests)

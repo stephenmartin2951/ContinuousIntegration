@@ -1,4 +1,0 @@
-Cannot generate into /Users/bentweet/Desktop/Group3Project4
-It is already used for project /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4
-
-Please either delete it manually or select another generation directory

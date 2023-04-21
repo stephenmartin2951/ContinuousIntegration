@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/isPrime.dir/isPrime.cpp.o"
-  "CMakeFiles/isPrime.dir/isPrime.cpp.o.d"
   "libisPrime.a"
   "libisPrime.pdb"
 )

@@ -1,7 +1,7 @@
 # CMake generated Testfile for 
-# Source directory: /Users/bentweet/Desktop/Group3Project4/perfectSquareChecker
-# Build directory: /Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker
+# Source directory: /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/perfectSquareChecker
+# Build directory: /mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/Build/perfectSquareChecker
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-include("/Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests[1]_include.cmake")
+include("/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/Build/perfectSquareChecker/perfectSquareCheckerTests[1]_include.cmake")

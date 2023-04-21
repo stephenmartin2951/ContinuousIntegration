@@ -1,5 +1,5 @@
-if(EXISTS "/Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
-  include("/Users/bentweet/Desktop/Group3Project4/build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
+if(EXISTS "/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/Build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
+  include("/mnt/c/Users/steph/OneDrive/Loyola Comp Sci/Comp 470/Group3Project4/Build/perfectSquareChecker/perfectSquareCheckerTests[1]_tests.cmake")
 else()
   add_test(perfectSquareCheckerTests_NOT_BUILT perfectSquareCheckerTests_NOT_BUILT)
 endif()

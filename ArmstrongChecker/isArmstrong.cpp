@@ -1,4 +1,4 @@
-bool isStrong(const int number)
+bool isArmstrong(const int number)
 {
   int n = number;
   int temp = n;

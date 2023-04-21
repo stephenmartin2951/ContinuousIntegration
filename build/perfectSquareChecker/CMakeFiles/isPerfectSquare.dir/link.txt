@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libisPerfectSquare.a CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libisPerfectSquare.a
+/usr/bin/ar qc libisPerfectSquare.a  CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.o
+/usr/bin/ranlib libisPerfectSquare.a

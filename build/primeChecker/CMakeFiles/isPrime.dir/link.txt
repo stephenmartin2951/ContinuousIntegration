@@ -1,2 +1,0 @@
-/usr/bin/ar qc libisPrime.a  CMakeFiles/isPrime.dir/isPrime.cpp.o
-/usr/bin/ranlib libisPrime.a

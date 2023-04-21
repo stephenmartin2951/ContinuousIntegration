@@ -1,2 +1,0 @@
-/usr/bin/ar qc libisPerfectSquare.a  CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.o
-/usr/bin/ranlib libisPerfectSquare.a

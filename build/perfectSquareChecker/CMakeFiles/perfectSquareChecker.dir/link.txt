@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/perfectSquareChecker.dir/perfectSquareChecker.cpp.o  -o perfectSquareChecker  libisPerfectSquare.a 

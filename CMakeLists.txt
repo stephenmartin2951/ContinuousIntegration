@@ -31,6 +31,6 @@ add_custom_target(
 )
 
 
-add_subdirectory(primeChecker)
-add_subdirectory(perfectSquareChecker)
+add_subdirectory(PrimeChecker)
+add_subdirectory(PerfectSquareChecker)
 add_subdirectory(ArmstrongChecker)

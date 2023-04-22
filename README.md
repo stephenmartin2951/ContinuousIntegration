@@ -6,7 +6,7 @@ Continuous Integration Project
 - In-Process
 
 [![Build](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml/badge.svg)](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml)
-[![Commit Acvitity](https://img.shields.io/github/commit-activity/w/stephenmartin2951/Group3Project4)
+![Commit Acvitity](https://img.shields.io/github/commit-activity/w/stephenmartin2951/Group3Project4)
 
 # Guide to adding functionalities:
  

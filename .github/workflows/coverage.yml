@@ -28,9 +28,9 @@ jobs:
         run: cmake --build . --config $BUILD_TYPE
 
       - name: Run
-        working-directory: ${{runner.workspace}}/build/ArmstrongChecker
+        working-directory: ${{runner.workspace}}/build/perfectSquareChecker
         shell: bash
-        run: ./armstrongCheckerTests
+        run: ./perfectSquareCheckerTests
 
       - name: Coverage
         working-directory: ${{runner.workspace}}/build

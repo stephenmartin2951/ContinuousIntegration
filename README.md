@@ -1,7 +1,12 @@
 # Group3Project4
- Continuous Integration Project
+Continuous Integration Project
  
- Guide to adding functionalities:
+# Project Metrics
+
+- In-Process
+[![CMake](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml/badge.svg)](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml)
+
+# Guide to adding functionalities:
  
  If you make changes to the project's base directory source files (Hint: you will need to do this when adding the perfect square program)
  

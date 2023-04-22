@@ -28,7 +28,7 @@ jobs:
         run: cmake --build . --config $BUILD_TYPE
 
       - name: Run
-        working-directory: ${{runner.workspace}}/build/perfectSquareChecker
+        working-directory: ${{runner.workspace}}/build/PerfectSquareChecker
         shell: bash
         run: ./perfectSquareCheckerTests
 

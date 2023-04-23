@@ -9,6 +9,11 @@ Continuous Integration Project
 ![Commit Acvitity](https://img.shields.io/github/commit-activity/w/stephenmartin2951/Group3Project4)
 [![Coverage Status](https://coveralls.io/repos/github/stephenmartin2951/ContinuousIntegration/badge.svg?branch=main)](https://coveralls.io/github/stephenmartin2951/ContinuousIntegration?branch=main)
 
+- Complexity
+
+![Code Size](https://img.shields.io/github/repo-size/stephenmartin2951/ContinuousIntegration)
+[![CodeFactor](https://www.codefactor.io/repository/github/stephenmartin2951/continuousintegration/badge)](https://www.codefactor.io/repository/github/stephenmartin2951/continuousintegration)
+
 # Guide to adding functionalities:
  
  If you make changes to the project's base directory source files (Hint: you will need to do this when adding the perfect square program)

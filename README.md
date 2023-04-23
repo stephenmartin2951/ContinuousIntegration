@@ -8,6 +8,8 @@ Continuous Integration Project
 [![Build](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml/badge.svg)](https://github.com/stephenmartin2951/Group3Project4/actions/workflows/cmake.yml)
 ![Commit Acvitity](https://img.shields.io/github/commit-activity/w/stephenmartin2951/Group3Project4)
 [![Coverage Status](https://coveralls.io/repos/github/stephenmartin2951/ContinuousIntegration/badge.svg?branch=main)](https://coveralls.io/github/stephenmartin2951/ContinuousIntegration?branch=main)
+![Top Language](https://img.shields.io/github/languages/top/stephenmartin2951/ContinuousIntegration)
+
 
 - Complexity
 

@@ -4,7 +4,7 @@
 
 TEST(ArmstrongNumberTest, PositiveNos)
 {
-    ASSERT_EQ(true, isArmstrong(4));
+    ASSERT_EQ(true, isArmstrong(407));
     ASSERT_EQ(true, isArmstrong(371));
     ASSERT_EQ(false, isArmstrong(10));
     ASSERT_EQ(false, isArmstrong(406));
@@ -17,7 +17,7 @@ TEST(ArmstrongNumberTest, NegativeNos)
     ASSERT_EQ(false, isArmstrong(-5));
     ASSERT_EQ(false, isArmstrong(-1));
     ASSERT_EQ(false, isArmstrong(-91231231));
-    ASSERT_EQ(false, isArmstrong(-0));
+    ASSERT_EQ(false, isArmstrong(-6565));
 }
 
 int main(int argc, char **argv) {

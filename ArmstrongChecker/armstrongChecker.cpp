@@ -4,6 +4,11 @@
 
 int main(int argc, char **argv) {
 
+    /*
+    TODO:
+    - Build unit tests (will add GoogleTest)
+    */
+
     //CLI utility implementation beginning
     CLI::App app{"Group 3's Armstrong Number Checker"};
 

@@ -35,12 +35,12 @@ jobs:
       - name: Run
         working-directory: ${{runner.workspace}}/build/PrimeChecker
         shell: bash
-        run: ./primeChecker
+        run: ./primeCheckerTests
         
       - name: Run
         working-directory: ${{runner.workspace}}/build/ArmstrongChecker
         shell: bash
-        run: ./armstrongChecker
+        run: ./armstrongCheckerTests
 
       - name: Coverage
         working-directory: ${{runner.workspace}}/build

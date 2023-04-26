@@ -9,7 +9,8 @@ Continuous Integration Project
 ![Commit Acvitity](https://img.shields.io/github/commit-activity/w/stephenmartin2951/Group3Project4)
 [![Coverage Status](https://coveralls.io/repos/github/stephenmartin2951/ContinuousIntegration/badge.svg?branch=main)](https://coveralls.io/github/stephenmartin2951/ContinuousIntegration?branch=main)
 ![Top Language](https://img.shields.io/github/languages/top/stephenmartin2951/ContinuousIntegration)
-
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/stephenmartin2951/ContinuousIntegration.svg)](http://isitmaintained.com/project/stephenmartin2951/ContinuousIntegration "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/stephenmartin2951/ContinuousIntegration.svg)](http://isitmaintained.com/project/stephenmartin2951/ContinuousIntegration "Percentage of issues still open")
 
 - Complexity
 
